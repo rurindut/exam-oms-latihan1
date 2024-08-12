@@ -1,0 +1,38 @@
+{
+    "name": "rurindut/exam-oms-latihan1",
+	"type": "magento2-module",
+    "authors": [
+        {
+            "name": "icubeus",
+            "email": "sales@icube.us"
+        }
+    ],
+    "description": "OMS Test",
+    "homepage": "https://github.com/rurindut/exam-oms-latihan1",
+    "keywords": [
+        "magento",
+        "magento2"
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.0",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "replace": {
+        "rurindut/exam-oms-latihan1": "self.version"
+    },
+    "autoload": {
+        "files": [
+            "src/module-omstest/registration.php"
+        ],
+        "psr-4": {
+            "Icube\\OmsTest\\": "src/module-omstest"
+        }
+    }
+}
