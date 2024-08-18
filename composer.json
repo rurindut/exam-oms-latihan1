@@ -8,7 +8,7 @@
         }
     ],
     "description": "OMS Test",
-    "homepage": "https://github.com/rurindut/exam-oms-latihan1/tree/develop",
+    "homepage": "https://github.com/rurindut/exam-oms-latihan1",
     "keywords": [
         "magento",
         "magento2"
@@ -18,16 +18,15 @@
         "AFL-3.0"
     ],
     "version": "1.0.0",
-    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
     "replace": {
         "rurindut/exam-oms-latihan1": "self.version"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/rurindut/exam-oms-latihan1"
-        }
-    ],
     "autoload": {
         "files": [
             "src/module-omstest/registration.php"
